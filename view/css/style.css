@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.main {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.Create2fa label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.CreateSecretKey {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.CreateSecretKey:hover {
+    background-color: #0056b3;
+}
+
+.CreateKey {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.authent2fa label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.authent2fa input {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-container1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button[type="submit1"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button[type="submit1"]:hover {
+    background-color: #0056b3;
+}
