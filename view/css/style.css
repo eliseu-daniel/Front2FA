@@ -18,13 +18,15 @@ body {
     border-radius: 10px;
 }
 
-.Create2fa label {
+.generated-code label,
+.validate-section label {
     display: block;
     margin-bottom: 10px;
     font-size: 16px;
 }
 
-.CreateSecretKey {
+.CreateSecretKey,
+button[type="submit1"] {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -34,28 +36,13 @@ body {
     border-radius: 5px;
 }
 
-.CreateSecretKey:hover {
+.CreateSecretKey:hover,
+button[type="submit1"]:hover {
     background-color: #0056b3;
 }
 
-.CreateKey {
-    display: inline-block;
-    width: 30px;
-    text-align: center;
-    margin: 0 5px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.authent2fa label {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 16px;
-}
-
-.authent2fa input {
+.generated-code input,
+.validate-section input {
     display: inline-block;
     width: 30px;
     text-align: center;
@@ -71,16 +58,7 @@ body {
     text-align: center;
 }
 
-button[type="submit1"] {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button[type="submit1"]:hover {
-    background-color: #0056b3;
+#createError,
+#validationMessage {
+    display: none;
 }

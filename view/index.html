@@ -8,32 +8,31 @@
 </head>
 <body>
     <main class="main">
-        <div class="Create2fa">
-            <label for="">Código para teste:</label>
-            <button class="CreateSecretKey" type="button">Criar</button>         
+        <div class="generated-code">
+            <label for="generatedCode">Código Gerado:</label>
+            <input id="generatedCode1" type="text" maxlength="1" readonly>
+            <input id="generatedCode2" type="text" maxlength="1" readonly>
+            <input id="generatedCode3" type="text" maxlength="1" readonly>
+            <input id="generatedCode4" type="text" maxlength="1" readonly>
+            <input id="generatedCode5" type="text" maxlength="1" readonly>
+            <input id="generatedCode6" type="text" maxlength="1" readonly>
         </div>
-        <input class="CreateKey" type="text" maxlength="1" readonly>
-        <input class="CreateKey" type="text" maxlength="1" readonly>
-        <input class="CreateKey" type="text" maxlength="1" readonly>
-        <input class="CreateKey" type="text" maxlength="1" readonly>
-        <input class="CreateKey" type="text" maxlength="1" readonly>
-        <input class="CreateKey" type="text" maxlength="1" readonly>
-
-        <div class="authent2fa">
-            <label for="authent2fa">Coloque o Codigo Gerado</label>
-            <input class="authent2fa" type="text" maxlength="1">
-            <input class="authent2fa" type="text" maxlength="1">
-            <input class="authent2fa" type="text" maxlength="1">
-            <input class="authent2fa" type="text" maxlength="1">
-            <input class="authent2fa" type="text" maxlength="1">
-            <input class="authent2fa" type="text" maxlength="1">
-            <div class="button-container1">
-                <button type="submit1">Validar</button>
-            </div>
+        <div class="create-section">
+            <button class="CreateSecretKey" type="button">Gerar Código</button>
+            <div id="createError"></div>
+        </div>
+        <div class="validate-section">
+            <label for="validationCode">Código de Validação:</label>
+            <input id="validationCode2" type="text" maxlength="1">
+            <input id="validationCode1" type="text" maxlength="1">
+            <input id="validationCode3" type="text" maxlength="1">
+            <input id="validationCode4" type="text" maxlength="1">
+            <input id="validationCode5" type="text" maxlength="1">
+            <input id="validationCode6" type="text" maxlength="1">
+            <button id="validateButton" class="CreateSecretKey" type="button">Validar Código</button>
+            <div id="validationMessage"></div>
         </div>
     </main>
-    
-
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
